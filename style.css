@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100hv;
+  background: linear-gradient(to right, #151515 , #A91D3A, #151515);
+  font-size: 20px;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.todo-list {
+  width: 400px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #151515;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list h2 {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ccc; /* Don't forget chabge the color! */
+}
+
+.tasks {
+  list-style: none;
+}
+
+.tasks li {
+  padding: 12px 20px;
+  border-bottom: 2px dashed #ccc;
+  color: #151515;
+  cursor: pointer;
+}
+
+.add-task .task-input {
+  padding: 12px 16px;
+  border: none;
+  width: 92%;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
